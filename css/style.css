@@ -19,7 +19,7 @@ ul{
 
 .ContactBtn{
     height:38px;
-    background:#e8491d;
+    background:#3498db;
     border:0;
     padding-left:20px;
     padding-right:20px;
@@ -39,8 +39,8 @@ header{
     background:#262626;
     color: #ffffff;
     padding-top:10px;
-    min-height:70px;
-    border-bottom:#e8491d 3px solid; 
+    min-height:50px;
+    border-bottom:#3498db 3px solid; 
 }
 
 header a{
@@ -70,7 +70,7 @@ header nav{
 }
 
 header .highlight, header .current a{
-    color:#e8491d;
+    color:#3498db;
     font-weight:bold;
 }
 
@@ -81,14 +81,15 @@ header a:hover{
 
 /*Showcase*/
 #showcase{
-    min-height: 400px;
+    min-height: 775px;
     background:url('../img/showcase.jpg') no-repeat 0 -400px;
+    background-size: 134%;
     text-align: center;
     color:#ffffff;
 }
 
 #showcase h1{
-    margin-top:100px;
+    margin-top:250px;
     font-size:55px;
     margin-bottom:10px;
 }
@@ -175,7 +176,7 @@ footer{
     padding:20px;
     margin-top:275px;
     color:#ffffff;
-    background-color:#e8491d;
+    background-color:#3498db;
     text-align: center;
 }
 
@@ -235,7 +236,7 @@ footer{
     margin: -75px 0 0 -75px;
     border-radius:50%;
     border: 3px solid transparent;
-    border-top-color:#3498db;
+    border-top-color: #ffffff; /*old color: Blue:#3498db;*/
     z-index:1001;
     -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
     animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -250,7 +251,7 @@ footer{
     bottom: 5px;
     border-radius:50%;
     border: 3px solid transparent;
-    border-top-color:#e74c3c;
+    border-top-color: #ffffff; /*old color: red: #e74c3c; */
 
     -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
     animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -265,7 +266,7 @@ footer{
     bottom: 15px;
     border-radius:50%;
     border: 3px solid transparent;
-    border-top-color:#f9c922;
+    border-top-color:#ffffff/*old color: yellow: #f9c922 */;
 
     -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
     animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
