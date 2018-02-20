@@ -158,7 +158,7 @@ header a:hover{
 /*Sidebar*/
 aside#sidebar{
     float:right;
-    width:30%;
+    width:25%;
     margin-top:10px;
 }
 
@@ -188,6 +188,13 @@ ul#skills li{
     background:#e6e6e6;
 }
 
+ul#bio li{
+    list-style: none;
+    border:none;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #9e9e9e
+}
 /*Footer*/
 
 footer{
